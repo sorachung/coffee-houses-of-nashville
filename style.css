@@ -1,20 +1,24 @@
 @import "shop.css";
 
+body {
+  font-family: "Mohave", sans-serif;
+}
+
 .list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .shop {
-    border: 0.1em black dotted;
-    padding: 0.3em 0.1em;
-    margin: 0 0.3em;
-    flex-basis: 30%;
-
+  border: 0.1em black dotted;
+  padding: 0.3em 0.1em;
+  margin: 0.3em 0.3em;
+  flex-basis: 30%;
 }
 
 .pageHeader {
-    text-align: center;
-    padding: 1em;
+  text-align: center;
+  padding: 1em;
+  font-size: 3em;
 }

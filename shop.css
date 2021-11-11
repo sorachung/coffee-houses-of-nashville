@@ -1,11 +1,12 @@
 .shop {
   background-color: saddlebrown;
   color: white;
+  text-align: center;;
 }
-
+/* 
 .shop h3 {
   text-align: center;
-}
+} */
 
 .shop a {
   color: burlywood;
